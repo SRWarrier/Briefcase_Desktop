@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>897</width>
+    <height>722</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <stylestrategy>PreferAntialias</stylestrategy>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Icon/logo.png</normaloff>../Icon/logo.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="Title">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>31</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;DIGITAL SIGNATURE&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QWidget" name="Data" native="true">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>261</height>
+      </size>
+     </property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="CC">
+        <property name="text">
+         <string>Country Code</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="ContryCode">
+        <item>
+         <property name="text">
+          <string>IN</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="ST">
+        <property name="text">
+         <string>State</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="State">
+        <item>
+         <property name="text">
+          <string>Andhra Pradesh</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Arunachal Pradesh</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Assam</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bihar</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Chhattisgarh</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Goa</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Gujarat</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Haryana</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Himachal Pradesh</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Jharkhand</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Karnataka</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kerala</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Madhya Pradesh</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Maharashtra</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Manipur</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Meghalaya</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mizoram</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nagaland</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Odisha</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Punjab</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Rajasthan</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sikkim</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tamil Nadu</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Telangana</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tripura</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Uttar Pradesh</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Uttarakhand</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>West Bengal</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="C">
+        <property name="text">
+         <string>City</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="City"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="O">
+        <property name="text">
+         <string>Certifier Name</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="CertifierName"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="OU">
+        <property name="text">
+         <string>Certifier Unit</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="CertifierUnit"/>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="CommonName">
+        <property name="text">
+         <string>User Name</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="UserName"/>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="emailid">
+        <property name="text">
+         <string>Email</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLineEdit" name="Email"/>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="PW">
+        <property name="text">
+         <string>Password</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QLineEdit" name="Password_2"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QGroupBox" name="validityPeriodGroup">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>67</height>
+      </size>
+     </property>
+     <property name="title">
+      <string>Validity Period</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QRadioButton" name="OneYear">
+        <property name="text">
+         <string>1 Year</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="TwoYears">
+        <property name="text">
+         <string>2 Years</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="FiveYears">
+        <property name="text">
+         <string>5 Years</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="Preview">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>271</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QWidget" name="ButtonGroup" native="true">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>43</height>
+      </size>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="Bactohome">
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(3,169,244);
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Back to Home</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Reset">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(156,39,176);</string>
+        </property>
+        <property name="text">
+         <string>Reset</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="GenerateDSC">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(76,175,80);</string>
+        </property>
+        <property name="text">
+         <string>Generate DSC</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
